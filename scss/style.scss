@@ -51,7 +51,7 @@
 .subheader {
   font-size: 2.2rem;
   line-height: 2.8rem;
-  color: #3FC380;
+  color: #2ECC71;
   text-transform: uppercase;
   margin-top: 15px;
   &--position {
@@ -63,16 +63,20 @@
 }
 
 .contact {
+  margin-top: 30px;
   margin-left: 15px;
   align-self: center;
   list-style: none;
+  li,a {
+    font-size: 1.8rem;
+  }
   a {
     text-decoration: none;
   }
 
   .fa {
     margin-right: 10px;
-    color: #3FC380;
+    color: #2ECC71;
     font-weight: 600;
   }
 }
@@ -90,7 +94,7 @@
 .fa {
   &:before {
     margin-right: 10px;
-    color: #3FC380;
+    color: #2ECC71;
   }
 }
 
@@ -110,7 +114,7 @@
   text-align: center;
   line-height: 40px;
   font-weight: 600;
-  background-color: hsla(0, 0, 40, 0.1);
+  background-color: #EEEEEE;
   margin: 10px;
   display: block;
   &--wider {
