@@ -6,6 +6,10 @@
   color: #666;
 }
 
+html,body {
+  -webkit-text-size-adjust:none; 
+}
+
 .one-page {
   height:297mm;
   width:210mm;
