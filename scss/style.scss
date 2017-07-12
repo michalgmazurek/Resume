@@ -1,13 +1,13 @@
 * {
   font-size: 62.5%;
-  // font: inherit;
+  font: inherit;
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
   color: #666;
-  // -webkit-text-size-adjust:100%;
-  // -moz-text-size-adjust:100%;
-  // -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  -moz-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
 }
 
 .one-page {
@@ -19,12 +19,12 @@
 }
 
 .text {
-  font-size: 1.6rem;
-  line-height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
   &--tiny {
     font-size: 0.6rem;
     line-height: 1.1rem;
-    margin-top: 50px;
+    margin-top: 140px;
   }
 }
 
@@ -32,7 +32,6 @@
   width: 200px;
   border-radius: 50%;
   margin: 20px;
-  margin-top: 45px;
 }
 
 .container {
@@ -48,18 +47,18 @@
 }
 
 .header {
-  font-size: 3rem;
-  line-height: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 .subheader {
-  font-size: 2.2rem;
-  line-height: 2.8rem;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
   color: #2ECC71;
   text-transform: uppercase;
   margin-top: 15px;
   &--position {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 2rem;
     margin-bottom: 10px;
     margin-top: 0;
@@ -67,12 +66,11 @@
 }
 
 .contact {
-  margin-top: 30px;
-  margin-left: 15px;
+  margin-left: 30px;
   align-self: center;
   list-style: none;
   li,a {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
   a {
     text-decoration: none;
@@ -86,12 +84,12 @@
 }
 
 .company {
-  font-size: 2.3rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .position {
-  font-size: 1.9rem;
+  font-size: 1.3rem;
   font-weight: 400;
 }
 
@@ -106,7 +104,8 @@
   margin-left: 30px;
   margin-top: 10px;
   li {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
   }
 }
 
@@ -115,11 +114,11 @@
 }
 
 .tag {
-  width: 100px;
-  height: 40px;
+  width: 90px;
+  height: 35px;
   border-radius: 10px;
   text-align: center;
-  line-height: 40px;
+  line-height: 35px;
   font-weight: 600;
   background-color: #EEEEEE;
   margin: 10px;
