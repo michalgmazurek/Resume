@@ -15,8 +15,19 @@
   width:210mm;
   margin-left:auto;
   margin-right:auto;
+  padding-top: 50px;
+
   @media print {
     -webkit-print-color-adjust: exact;
+    padding-bottom: 70px;
+    padding-top: 0;
+  }
+  &:last-child {
+    padding-top: 0;
+    padding-bottom: 50px;
+    @media print {
+      padding-bottom: 0;
+    }
   }
   // border: 1px solid black;
 }
@@ -27,7 +38,10 @@
   &--tiny {
     font-size: 0.6rem;
     line-height: 1.1rem;
-    margin-top: 140px;
+    padding-top: 40px;
+    @media print {
+      margin-top: 25px;
+    }
   }
 }
 
@@ -117,7 +131,7 @@
 }
 
 .tag {
-  width: 90px;
+  width: 115px;
   height: 35px;
   border-radius: 10px;
   text-align: center;
