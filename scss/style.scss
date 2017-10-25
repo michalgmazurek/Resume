@@ -40,7 +40,7 @@
     line-height: 1.1rem;
     padding-top: 40px;
     @media print {
-      margin-top: 25px;
+      margin-top: 80px;
     }
   }
 }
@@ -114,6 +114,7 @@
 .fa {
   &:before {
     margin-right: 10px;
+    margin-left: 1px;
     color: #2ECC71;
   }
 }
@@ -124,6 +125,10 @@
   li {
     font-size: 1.2rem;
     line-height: 1.4rem;
+  }
+  &--sublist {
+      list-style: circle;
+      margin-left: 30px;
   }
 }
 
